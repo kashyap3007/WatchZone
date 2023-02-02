@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Reseting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container {
+  transform-style: preserve-3d;
+}
+
+.container .boxi {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.container .boxi .body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.9s ease;
+}
+
+.container .boxi .body .imgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.container .boxi .body .imgContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heading {
+  color: #ffeb3b;
+}
+.container .boxi .body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+}
+
+.container .boxi:hover .body {
+  transform: rotateY(180deg);
+}
+
+.container .boxi .body .content div {
+  transform-style: preserve-3d;
+  padding: 20px;
+  /* background: linear-gradient(45deg, #fe0061, #ffeb3b); */
+  transform: translateZ(100px);
+}
+
+.container .boxi .body .content div h3 {
+  letter-spacing: 1px;
+}

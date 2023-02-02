@@ -1,0 +1,113 @@
+.section {
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    padding-right: 0;
+    margin-right: 0;
+}
+.section h2{
+    font-size: 2rem;
+}
+
+.section-body {
+    margin-top: 40px;
+    min-width: 90%;
+    box-sizing: content-box !important;
+    display: flex;
+    gap: 14px;
+    flex-direction: row;
+    flex-wrap: rap;
+    overflow: visible;
+    transition-duration: 2s;
+    /* transform: translateX(30px); */
+}
+
+.slide-button{
+    position: relative;
+    left: 95%;
+    /* bottom: 180px; */
+    /* background-color: black; */
+    color: rgb(95, 95, 84);
+    cursor: pointer;
+    font-size: 3rem;
+    z-index: 34;
+    /* top: 23px; */
+}
+
+.bottom{
+    bottom: 180px;
+}
+.slide-button-back{
+    position: relative;
+    left: -2%;
+    /* bottom: 180px; */
+    /* background-color: black; */
+    color: rgb(95, 95, 84); 
+    cursor: pointer;
+    font-size: 3rem;
+    z-index: 34;
+}
+.slide-button:hover{
+    /* color: antiquewhite; */
+    /* font-size: 3.2rem; */
+    transform: scale(1.2);
+}
+/* 
+/* .show-more{
+    transform: translateX(-100%);
+    /* transition-duration: 2s; */
+    /* overflow: visible; */
+/* }  */
+/* */ 
+
+/* Responsive media queries */
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .bottom{
+        bottom: 180px;
+        font-size: 2.5rem;
+    }
+    .section{
+        margin: 0 auto;
+        padding: 1% inherit;
+    }
+    .section h2{
+        font-size: 1.5rem;
+        margin: 2% inherit;
+    }
+    .card{
+        min-width: 200px !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bottom{
+        bottom: 90px;
+        font-size: 2rem;
+    }
+    .section{
+        margin: 0 auto;
+        padding-bottom: 0 !important;
+        /* height: 500px; */
+    }
+    .section-body{
+        margin-top: 10px;
+    }
+    .section h2{
+        font-size: 1.1rem;
+    }
+    .card{
+        height: 150px !important;
+        min-width: 150px!important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .card-body h4{
+        font-size: 0.8rem;
+    }
+    .card-body p{
+        font-size: 0.5rem;
+    }
+    .card-body a{
+        font-size: 0.7rem;
+
+    }
+}

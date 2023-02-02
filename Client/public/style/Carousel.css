@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); 
+body{
+    background-color: rgb(50, 56, 71);
+    margin-bottom: 0%;
+}
+.carousel{
+    margin: 0 2% 2% 2%;
+    padding: 2vw 2vw 0 2vw;
+}
+.carousel-dash{
+    margin-bottom: 0;
+    /* padding: 2px!important; */
+}
+
+ .carousel img{
+    position: relative;
+    left: 50%;
+    height: 30vw;
+    width: 50vw;
+    /* object-fit: contain; */
+    /* margin-left: 315px; */
+    /* z-index: -1; */
+    border-radius: 10;
+}
+.w-100{
+    width: 50%;
+}
+
+.carousel-desc {
+    position: absolute;
+    left: 44%;
+    bottom: 0rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(255 255 255);
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(25 25 39);;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+}
+.carousel-desc h4{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 2.5em;
+    text-align: left;
+    width: 70%;
+    margin-left: 20px;
+}
+.carousel-desc p{
+    font-size: 1.3rem;
+    width: 70%;
+    text-align: left;
+    margin: 20px;
+}
+.carousel-desc button{
+    /* width: 20%;
+    height: 15%; */
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+   font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+/* Responsive Classes */
+@media screen  and (max-width: 1220px) and (min-width: 1100px){
+    .carousel-desc h4{
+        font-size: 2rem;
+    }
+    .carousel-desc p{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .carousel-desc button{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 1110px) and (min-width: 920px){
+    .carousel-desc {
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+    .carousel-desc h4{
+        font-size: 2rem;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .carousel-desc p{
+        font-size: 1.3rem;
+        width: 100%;
+        margin: 0 inherit;
+        margin-bottom: 10px;
+    }
+    .carousel-desc button{
+        font-size: 1.2rem;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 920px) and (min-width: 700px){
+    .carousel-desc {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1%;
+        /* margin: 0; */
+    }
+    .carousel-desc h4{
+        font-size: 1.5rem;
+        margin: 3% auto 0 auto;
+        width: 80%;
+    }
+    .carousel-desc p{
+        font-size: 0.8rem;
+        margin: 2% auto;
+        width: 80%;
+    }
+    .carousel-desc button{
+        font-size: 0.7rem;
+        margin: 2% auto;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 510px){
+    .carousel-desc {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1%;
+        /* margin: 0; */
+    }
+    .carousel-desc h4{
+        font-size: 1.1rem;
+        width: 100%;
+        margin: 3% auto 0 auto;
+    }
+    .carousel-desc p{
+        font-size: 0.7rem;
+        width: 100%;
+        margin: 2% auto;
+    }
+    .carousel-desc button{
+        font-size: 0.5rem;
+        margin: 2% auto;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 510px){
+    .carousel-desc {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+         margin: 0; 
+    }
+    .carousel-desc h4{
+        font-size: 0.8rem;
+        width: 100%;
+        margin: 3% auto 0 auto;
+    }
+    .carousel-desc p{
+        font-size: 0.4rem;
+        width: 100%;
+        margin: 2% auto;
+    }
+    .carousel-desc button{
+        font-size: 0.3rem;
+        margin: 3% auto;
+    }
+} 

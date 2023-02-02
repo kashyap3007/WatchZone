@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+.video{
+    width: 80vw !important;
+    height: 35vw !important;
+    margin: 0 auto;
+}
+
+.video-item{
+    margin-left: 120px;
+    width: 78%;
+    height: 100%;
+}
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.font-oswald{
+    font-family: 'Poppins', sans-serif;
+}
