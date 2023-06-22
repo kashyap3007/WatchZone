@@ -1,4 +1,5 @@
 # ***OTT Platform***
+Discover a vast world of entertainment on our OTT platform, featuring a captivating selection of movies, TV shows, and more. Immerse yourself in thrilling stories, captivating characters, and endless entertainment options.
 
 ## Login Page
 ![image](https://github.com/0203nilesh/My-OTT-platform/assets/95562518/daebad80-b87c-4374-a4da-6b8b09397c96)
